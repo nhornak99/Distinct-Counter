@@ -10,6 +10,9 @@ namespace RemoveDuplicates
     {
         static void Main(string[] args)
         {
+            DuplicateRemover remover = new DuplicateRemover();
+            int newLength = remover.RemoveDuplicates(new int[] { 1, 1, 2 });
+            Console.WriteLine("The new length is: " + newLength);
         }
     }
 }
